@@ -1,0 +1,40 @@
+- go to:
+    url: 'https://observ.nu/'
+
+- wait to appear:
+    eil: Inloggen
+
+- set:
+    Inloggen:
+
+- wait to appear :
+    eil: Registreer
+
+- set:
+    Registreer:
+
+- wait to appear :
+    eil: Fname
+
+- set:
+    Fname: "Rohit"
+    Lname: "Choudhary"
+    Email: "rohit@gmail.com"
+    Find:
+    Role:
+    Available:
+    Pwd: "swati"
+    CPwd: "swati"
+
+- send keys:
+    0 : '[TAB]'
+    1 : '[TAB]'
+
+- set:
+    RegBttn:
+
+- wait to appear :
+    eil: Accepteren
+
+
+

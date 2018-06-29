@@ -1,0 +1,38 @@
+- go to:
+    url: /
+
+- wait to appear:
+    eil: Inloggen
+
+- set:
+    Inloggen:
+
+- wait to appear :
+    eil: LogIn
+
+- set:
+    LogIn:
+
+- sleep:
+    seconds : '2'
+
+- wait to appear :
+    eil: userName
+
+- set:
+    userName: '{{username}}'
+
+- wait to appear:
+    eil: Pwd
+
+- set:
+    Pwd: '{{pwd}}'
+
+- sleep:
+    seconds: '2'
+
+- set:
+    LogInBtn:
+
+- wait to appear:
+    eil: afterLogIn

@@ -1,0 +1,14 @@
+- go to:
+    url: 'https://www.google.com'
+
+- wait to appear:
+    searchBtn:
+
+- set:
+    searchBtn: "new york"
+
+- wait to appear:
+    el1: resultLink
+
+- check matches:
+    resultLink: 'New York'

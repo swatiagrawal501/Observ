@@ -1,0 +1,14 @@
+- wait to appear:
+    eil: afterLogIn
+
+- set:
+    afterLogIn:
+
+- wait to appear:
+    eil: LogOut
+
+- set:
+    LogOut:
+
+#- wait to appear :
+#    eil: userName
